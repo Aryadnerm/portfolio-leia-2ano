@@ -90,14 +90,3 @@ O mesmo QR Code continua funcionando depois de atualizar textos e fotos, desde q
 - Alteração não aparece: aguarde a publicação terminar e atualize a página. No computador, tente Ctrl+F5.
 
 Todo o conteúdo pode ser lido sem JavaScript. O script serve apenas ao menu compacto no celular. Nenhum dado é enviado por formulário ou armazenado em servidor por este site.
-
-
-## Vivência 5 — Cartazes sobre o Brasil
-
-A seção `vivencia-5` reúne as dez imagens enviadas em 07/09/2026, com contextualização pedagógica sobre cartazes e o Dia da Independência. Os arquivos são `assets/images/vivencia-5-cartaz-01.jpg` até `vivencia-5-cartaz-10.jpg`.
-
-Oito fotos foram giradas 90° para a esquerda; duas já estavam na vertical. Nenhuma folha foi recortada. As cópias destinadas ao site têm os campos de identificação do cabeçalho ocultos por uma faixa opaca, inclusive quando o nome foi escrito no campo da professora. Os desenhos e a escrita da atividade não foram corrigidos. As imagens originais não são incluídas neste pacote.
-
-Os cards usam proporção vertical e `object-fit: contain`. No celular estreito, há uma produção por linha; em telas intermediárias, duas; no computador, três. Ao clicar, a produção abre ampliada; o botão Fechar ou a tecla Esc retorna à galeria. Sem JavaScript, o link abre diretamente a imagem e você pode usar Voltar no navegador.
-
-Para acrescentar uma produção, copie um `figure` de dentro de `poster-gallery`. Atualize os dois caminhos (no link e na imagem), o número do cartaz, a descrição `alt` e o `aria-label`. Use uma cópia sem nomes completos visíveis e mantenha a imagem inteira. As legendas não identificam os estudantes.
