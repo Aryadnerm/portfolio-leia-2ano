@@ -48,7 +48,7 @@ As imagens desta versão vieram do HTML original. As fotos adicionais da pasta d
 
 | Arquivo | Conteúdo |
 |---|---|
-| foto-0.jpg | Foto de destaque da turma |
+| foto-0.png | Imagem de abertura da turma |
 | foto-1.jpg | Logo da escola |
 | foto-2.jpg | Quadro com textos e cartaz |
 | foto-3.jpg | Participação de estudante no quadro |
@@ -101,3 +101,8 @@ Oito fotos foram giradas 90° para a esquerda; duas já estavam na vertical. Nen
 Os cards usam proporção vertical e `object-fit: contain`. No celular estreito, há uma produção por linha; em telas intermediárias, duas; no computador, três. Ao clicar, a produção abre ampliada; o botão Fechar ou a tecla Esc retorna à galeria. Sem JavaScript, o link abre diretamente a imagem e você pode usar Voltar no navegador.
 
 Para acrescentar uma produção, copie um `figure` de dentro de `poster-gallery`. Atualize os dois caminhos (no link e na imagem), o número do cartaz, a descrição `alt` e o `aria-label`. Use uma cópia sem nomes completos visíveis e mantenha a imagem inteira. As legendas não identificam os estudantes.
+
+
+## Imagem de abertura
+
+A capa usa `assets/images/foto-0.png`, exibida inteira na largura da página e com o título acima. Sua altura acompanha a proporção original, sem cortar ou esticar o grupo. Para trocá-la, envie a nova imagem com o mesmo nome e atualize as dimensões width/height no HTML (ou remova esses dois atributos).
